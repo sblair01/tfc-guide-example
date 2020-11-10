@@ -25,6 +25,6 @@ resource "aws_dynamodb_table" "tfc_example_table" {
 
   attribute {
     name = "UserName"
-    type = "S"
+    type = "SP"
   }
 }
